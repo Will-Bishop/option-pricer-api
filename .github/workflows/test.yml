@@ -24,4 +24,4 @@ jobs:
         docker compose version  # verify install
 
     - name: Build and run tests
-      run: docker-compose run --rm tests
+      run: docker compose run --rm tests
