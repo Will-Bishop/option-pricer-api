@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# Docker files
+*.log
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.cache/
+
+# VSCode
+.vscode/
+
+# Test output
+htmlcov/
+
+# Ignore env files
+.env.*
